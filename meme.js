@@ -4,7 +4,7 @@ const axios = require('axios');
 const app = express();
 
 const memes = [
-    "https://imgur.com/a/AozH1m5", 
+    "https://imgur.com/a/AozH1m5.jpg", 
 ];
 
 const ensureJpgExtension = (url) => {
